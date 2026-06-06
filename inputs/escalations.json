@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ESC-001",
+    "account_name": "Acme Ltd",
+    "tier": "Enterprise",
+    "arr_gbp": 185000,
+    "issue_summary": "Repeated authentication failures blocking production workflows. CSM unresponsive for 3 days.",
+    "days_open": 35,
+    "escalations_last_30d": 5,
+    "severity": "Critical",
+    "assigned_owner": "Customer Success"
+  },
+  {
+    "id": "ESC-002",
+    "account_name": "Tech Corp Ltd",
+    "tier": "Enterprise",
+    "arr_gbp": 220000,
+    "issue_summary": "Data export API returning 500 errors intermittently. Impacting downstream reporting for finance team.",
+    "days_open": 12,
+    "escalations_last_30d": 2,
+    "severity": "High",
+    "assigned_owner": "Engineering"
+  },
+  {
+    "id": "ESC-003",
+    "account_name": "Meridian Group",
+    "tier": "Growth",
+    "arr_gbp": 62000,
+    "issue_summary": "SSO configuration broken after tenant migration. Users locked out of platform.",
+    "days_open": 14,
+    "escalations_last_30d": 3,
+    "severity": "High",
+    "assigned_owner": "Customer Success"
+  },
+  {
+    "id": "ESC-004",
+    "account_name": "Apex Financial",
+    "tier": "Enterprise",
+    "arr_gbp": 310000,
+    "issue_summary": "Audit trail export missing entries from Q4. Regulatory submission deadline in 11 days. Legal has been notified.",
+    "days_open": 21,
+    "escalations_last_30d": 4,
+    "severity": "Critical",
+    "assigned_owner": "Engineering"
+  },
+  {
+    "id": "ESC-005",
+    "account_name": "Nova Retail",
+    "tier": "Starter",
+    "arr_gbp": 8400,
+    "issue_summary": "Dashboard load times degraded. User reports pages taking 8-10 seconds.",
+    "days_open": 3,
+    "escalations_last_30d": 1,
+    "severity": "Medium",
+    "assigned_owner": "Support"
+  },
+  {
+    "id": "ESC-006",
+    "account_name": "acme",
+    "tier": "Enterprise",
+    "arr_gbp": 185000,
+    "issue_summary": "Follow-up to ESC-001: authentication issue still unresolved. VP Engineering escalating directly.",
+    "days_open": 35,
+    "escalations_last_30d": 5,
+    "severity": "Critical",
+    "assigned_owner": "Customer Success"
+  },
+  {
+    "id": "ESC-007",
+    "account_name": "Solar Analytics Co",
+    "tier": "Starter",
+    "arr_gbp": 6200,
+    "issue_summary": "CSV import silently fails on files over 10MB. Workaround communicated.",
+    "days_open": 2,
+    "escalations_last_30d": 1,
+    "severity": "Low",
+    "assigned_owner": "Support"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PROJ-001",
+    "account_name": "TechCorp Ltd",
+    "project_name": "Analytics Platform Migration",
+    "status": "Red",
+    "phase": "Implementation",
+    "days_overdue": 8,
+    "budget_variance_pct": 12,
+    "notes": "Integration blockers unresolved. Project manager flagged internal resourcing gap — two engineers reallocated to another account last sprint. Customer unaware of internal cause.",
+    "recommended_action": "CEO escalation",
+    "owner": "PMO"
+  },
+  {
+    "id": "PROJ-002",
+    "account_name": "Apex Financial",
+    "project_name": "Regulatory Reporting Module",
+    "status": "Red",
+    "phase": "UAT",
+    "days_overdue": 5,
+    "budget_variance_pct": 8,
+    "notes": "UAT sign-off blocked on audit trail data gap — same issue as ESC-004. Regulatory deadline hard. Customer legal team involved.",
+    "recommended_action": "Executive sponsor engagement",
+    "owner": "PMO"
+  },
+  {
+    "id": "PROJ-003",
+    "account_name": "Acme Corporation",
+    "project_name": "SSO Integration",
+    "status": "Amber",
+    "phase": "Implementation",
+    "days_overdue": 0,
+    "budget_variance_pct": 3,
+    "notes": "On schedule but authentication instability (see ESC-001) creating risk to go-live date. Implementation lead flagged dependency.",
+    "recommended_action": "Monitor",
+    "owner": "PMO"
+  },
+  {
+    "id": "PROJ-004",
+    "account_name": "Nova Retail Ltd",
+    "project_name": "Dashboard Customisation",
+    "status": "Green",
+    "phase": "Discovery",
+    "days_overdue": 0,
+    "budget_variance_pct": 0,
+    "notes": "Early stage, on track. No issues.",
+    "recommended_action": "No action",
+    "owner": "PMO"
+  },
+  {
+    "id": "PROJ-005",
+    "account_name": "Solar Analytics Co",
+    "project_name": "Data Pipeline Setup",
+    "status": "Green",
+    "phase": "Discovery",
+    "days_overdue": 0,
+    "budget_variance_pct": 0,
+    "notes": "Kick-off completed. Scoping underway.",
+    "recommended_action": "No action",
+    "owner": "PMO"
+  }
+]

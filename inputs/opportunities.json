@@ -1,0 +1,86 @@
+[
+  {
+    "id": "OPP-001",
+    "account_name": "Acme Corporation",
+    "tier": "Enterprise",
+    "arr_gbp": 185000,
+    "stage": "Renewal",
+    "renewal_date": "2026-07-15",
+    "days_stalled": 28,
+    "deal_value_gbp": 195000,
+    "notes": "Renewal stalled. Decision-maker changed — new CFO joined 6 weeks ago, relationship not yet established. Previous champion non-responsive.",
+    "owner": "Sales Director"
+  },
+  {
+    "id": "OPP-002",
+    "account_name": "TechCorp",
+    "tier": "Enterprise",
+    "arr_gbp": 220000,
+    "stage": "Upsell",
+    "renewal_date": "2026-10-01",
+    "days_stalled": 8,
+    "deal_value_gbp": 45000,
+    "notes": "Upsell proposal submitted for advanced analytics module. Procurement reviewing. Positive reception in last call.",
+    "owner": "Sales Director"
+  },
+  {
+    "id": "OPP-003",
+    "account_name": "Meridian",
+    "tier": "Growth",
+    "arr_gbp": 62000,
+    "stage": "Renewal",
+    "renewal_date": "2026-08-01",
+    "days_stalled": 14,
+    "deal_value_gbp": 68000,
+    "notes": "Renewal stalled. However, positive exec meeting last week — COO expressed strong intent to expand usage in H2.",
+    "owner": "Account Executive"
+  },
+  {
+    "id": "OPP-004",
+    "account_name": "Apex Finance Ltd",
+    "tier": "Enterprise",
+    "arr_gbp": 310000,
+    "stage": "Closed Lost",
+    "renewal_date": "2026-05-01",
+    "days_stalled": 0,
+    "deal_value_gbp": 0,
+    "notes": "Renewal lost to competitor. Customer cited lack of regulatory reporting features. Decision finalised 3 weeks ago.",
+    "owner": "Sales Director"
+  },
+  {
+    "id": "OPP-005",
+    "account_name": "Nova Retail Ltd",
+    "tier": "Starter",
+    "arr_gbp": 8400,
+    "stage": "Renewal",
+    "renewal_date": "2026-09-01",
+    "days_stalled": 0,
+    "deal_value_gbp": 8800,
+    "notes": "Auto-renewal expected. No action required.",
+    "owner": "Account Executive"
+  },
+  {
+    "id": "OPP-006",
+    "account_name": "Solar Analytics",
+    "tier": "Starter",
+    "arr_gbp": 6200,
+    "stage": "Renewal",
+    "renewal_date": "2026-09-15",
+    "days_stalled": 0,
+    "deal_value_gbp": 6400,
+    "notes": "Small account, auto-renewal path. No escalations in pipeline.",
+    "owner": "Account Executive"
+  },
+  {
+    "id": "OPP-007",
+    "account_name": "TechCorp Ltd",
+    "tier": "Enterprise",
+    "arr_gbp": 220000,
+    "stage": "Upsell",
+    "renewal_date": "2026-10-01",
+    "days_stalled": 8,
+    "deal_value_gbp": 45000,
+    "notes": "Duplicate CRM entry — same deal as OPP-002. Merge pending.",
+    "owner": "Sales Director"
+  }
+]
