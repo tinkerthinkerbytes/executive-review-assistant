@@ -19,6 +19,9 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from .brief import build_brief_metadata, stream_brief
 from .classify import classify_all_sync
 from .ingest import load_all

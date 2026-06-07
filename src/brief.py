@@ -125,16 +125,19 @@ def stream_brief(
         )
         context += watch
 
-    with client.chat.completions.stream(
+    response = client.chat.completions.create(
         model=MODEL,
         messages=[
             {"role": "system", "content": BRIEF_SYSTEM_PROMPT},
             {"role": "user", "content": context},
         ],
         temperature=0.1,
-    ) as stream:
-        for text in stream.text_stream:
-            yield f"data: {json.dumps(text)}\n\n"
+        stream=True,
+    )
+    for chunk in response:
+        content = chunk.choices[0].delta.content
+        if content:
+            yield f"data: {json.dumps(content)}\n\n"
 
     yield "data: [DONE]\n\n"
 
